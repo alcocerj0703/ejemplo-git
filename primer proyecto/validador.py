@@ -1,4 +1,4 @@
-def validar_numero_entero_positivo(numero):
+def validar(numero):
     try:
         numero_entero = int(numero)
         if numero_entero <= 0:
