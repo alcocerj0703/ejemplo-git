@@ -1,9 +1,11 @@
-def validar(numero):
+def validar(numero1, numero2):
     try:
-        numero_entero = int(numero)
-        if numero_entero <= 0:
-            return False, "El número debe ser positivo."
+        numero_entero1 = int(numero1)
+        numero_entero2 = int(numero2)
+        if numero_entero1 <= 0 or numero_entero2 <= 0:
+            return False, "Ambos números deben ser positivos."
         else:
-            return True, "Número válido."
+            return True, "Números válidos."
     except ValueError:
-        return False, "El valor ingresado no es un número entero."
+        return False, "Los valores ingresados no son números enteros."
+
