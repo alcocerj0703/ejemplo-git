@@ -1,0 +1,8 @@
+Cada alumno realizara un modulo en python para el desarrollo de una
+calculadora simple.
+La calculadora debera de:
+-Realizar las cuatro operaciones basicas
+-Validar los ingresos del usuario
+-Tener un menu de eleccion
+-Ejecutarse indefinidamente
+-Detenerse cuando el usuaurio seleccione salir
