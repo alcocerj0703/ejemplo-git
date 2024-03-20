@@ -8,3 +8,4 @@ def validar(numero1, numero2):
             return True, "Números válidos."
     except ValueError:
         return False, "Los valores ingresados no son números enteros."
+
